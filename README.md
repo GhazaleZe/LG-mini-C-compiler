@@ -1,5 +1,5 @@
 # LG mini C compiler
-## It will be complete very soon.(After my deadline I mean)  
+## Description:  
 Project of IUT compiler course in 3 phase for C.  
 The project of the IUT compiler course in 3 phases for C.  
 It's a simplified C compiler that checks syntax, semantic and finally generates assembly codes.  
@@ -32,3 +32,4 @@ for printing the parse tree by token name run:
 ```
 ./a.out test.txt 1
 ```
+## Phase 3:
