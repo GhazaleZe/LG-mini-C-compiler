@@ -23,6 +23,7 @@ The goal of this phase is to print the **parse tree** of the input and check sem
 ```bash
 bison -d bison_code.y -o app.cpp
 flex -o app_lex.cpp flex_code.l
+g++ app.cpp app_lex.cpp 
 ```
 for printing the parse tree by token value run:
 ```
