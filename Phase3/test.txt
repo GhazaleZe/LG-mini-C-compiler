@@ -1,0 +1,9 @@
+
+int main(){
+	int a = 9;
+	if(a < 10){
+		a = a * 10;
+	}
+	int DBZ = 10 - a / 9;
+	callWhat(DBZ);
+}
