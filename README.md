@@ -34,3 +34,15 @@ for printing the parse tree by token name run:
 ./a.out test.txt 1
 ```
 ## Phase 3:
+In this phase, we change the **bison file** of phase2 to generate assembly code from c code. We use the MIPS assembly.  
+The goal of this phase is to generate the **assembly code** of the input and check whether there is an error or not.  
+```bash
+bison -d bison_code.y -o app.cpp
+flex -o app_lex.cpp flex_code.l
+g++ app.cpp app_lex.cpp 
+./a.out test.txt 0
+```
+## Resources:  
+[TA](https://github.com/milad2golnia) videos  
+https://minnie.tuhs.org/CompArch/Resources/mips_quick_tutorial.html  
+http://www.mrc.uidaho.edu/mrc/people/jff/digital/MIPSir.html
