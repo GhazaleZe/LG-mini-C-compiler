@@ -2,7 +2,7 @@
 ## Description:  
 Project of IUT compiler course in 3 phase for C.  
 The project of the IUT compiler course in 3 phases for C.  
-**Note: There are videos from runnig test cases of phase3(final phase) [here](https://github.com/GhazaleZe/LG-mini-C-compiler/discussions/1)**  
+**Note: There are videos from test cases of phase3(final phase) [here](https://github.com/GhazaleZe/LG-mini-C-compiler/discussions/1)**  
 It's a simplified C compiler that checks syntax, semantic and finally generates assembly codes.  
 This project has been done in two-person([@elnazrahmati](https://github.com/elnazrahmati) and me) teams.   
 ## Requirements:
